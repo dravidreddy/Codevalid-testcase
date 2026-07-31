@@ -34,6 +34,10 @@ def generate_bot_response(user_text: str) -> str:
     else:
         return f"Echo response: '{user_text}'. I am here to help you test Codevalid!"
 
+@app.get("/health")
+async def health_check():
+    return {"status": "ok"}
+
 @app.get("/", response_class=HTMLResponse)
 async def get_index():
     with open("index.html", "r", encoding="utf-8") as f:
