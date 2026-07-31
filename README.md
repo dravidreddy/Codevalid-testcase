@@ -15,6 +15,10 @@ The chatbot provides conversational responses based on user input.
 - **Identity Inquiry**: When the user asks "who are you" or "what are you", the chatbot introduces itself as a testing chatbot built for Codevalid.
 - **Fallback Echo Response**: For any unhandled messages, the chatbot returns an echo response acknowledging the user's input.
 - **Chat History Management**: The system displays messages in a chat conversation window and allows clearing conversation history via a "Clear Chat" button.
+### Server Health Ping Feature
+Independent lightweight service health check for fast system validation.
+- **Health Ping**: Send a `GET` request to `/api/ping` to receive an instant JSON status response `{"status": "ok", "message": "pong"}`.
+
 
 ## How to Run
 
