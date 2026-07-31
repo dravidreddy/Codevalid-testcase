@@ -3,7 +3,7 @@
 A simple, lightweight conversational chatbot application used for testing Codevalid onboarding, feature breakdown, and automated test generation workflows.
 
 ## Overview
-This repository contains a full-stack chatbot with a Python FastAPI backend and a responsive glassmorphic HTML/JS frontend.
+This is a repository containing a full-stack chatbot with a Python FastAPI backend and a responsive glassmorphic HTML/JS frontend.
 
 ## Features
 
